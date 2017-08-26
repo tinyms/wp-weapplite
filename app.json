@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "鲜侬科技",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  
+  "debug": true
+}

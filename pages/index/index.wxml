@@ -1,0 +1,15 @@
+<import src="../../wxParse/wxParse.wxml"/>
+
+<view class="navbar">
+  <view class="navbar-item" wx:for="{{navbar}}" wx:for-index="idx" data-idx="{{idx}}" bindtap="swichNav">
+    <text class="navbar-text {{currentNavbar==idx ? 'active' : ''}}">{{item.title}}</text>
+  </view>
+</view>
+
+<view class="wp-page-content">
+
+  <view class="work-category">
+    <template is="wxParse" data="{{wxParseData:wp_page_content.nodes}}"/>
+  </view>
+
+</view>
