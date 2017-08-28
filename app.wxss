@@ -10,4 +10,5 @@ page {
   align-items: center;
   padding: 0;
   box-sizing: border-box;
+  
 }

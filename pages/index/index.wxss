@@ -123,4 +123,11 @@
   align-items: center;
   margin-left: 10px;
   margin-right: 10px;
+  color: #1f2f3d;
+}
+
+.work-category view{
+  margin-top: 10px;
+  text-indent: 25px;
+  color: #1f2f3d;
 }
